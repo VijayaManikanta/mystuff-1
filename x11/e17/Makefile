@@ -12,5 +12,6 @@ SUBDIR += edje
 SUBDIR += efreet
 SUBDIR += e_dbus
 SUBDIR += e
+SUBDIR += expedite
 
 .include <bsd.port.subdir.mk>
