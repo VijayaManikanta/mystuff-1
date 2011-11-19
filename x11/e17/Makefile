@@ -1,5 +1,7 @@
 # $OpenBSD: Makefile,v 1.6 2011/01/16 01:05:50 laurent Exp $
 
+# dev branch
+
 SUBDIR =
 SUBDIR += eina
 SUBDIR += eet
