@@ -13,7 +13,7 @@ PERMIT_DISTFILES_FTP =	Yes
 MODULES +=		devel/gettext \
 			lang/lua
 
-WANTLIB += X11 X11-xcb c crypto curl dbus-1 ebluez econnman ecore ecore_con 
+WANTLIB += X11 X11-xcb c crypto curl dbus-1 ebluez econnman0_7x ecore ecore_con 
 WANTLIB += ecore_evas ecore_file ecore_imf ecore_imf_evas ecore_input 
 WANTLIB += ecore_input_evas ecore_ipc ecore_x edbus edje eet efreet efreet_mime 
 WANTLIB += efreet_trash ehal eina embryo enotify eofono evas execinfo expat 
