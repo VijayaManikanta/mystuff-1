@@ -4,8 +4,7 @@ CATEGORIES ?=		x11
 
 HOMEPAGE ?=		http://www.enlightenment.org/
 
-MASTER_SITES ?=		http://kernelinvaders.com/e17/ \
-			http://download.enlightenment.org/releases/ \
+MASTER_SITES ?=		http://download.enlightenment.org/releases/ \
 			http://download.enlightenment.org/snapshots/LATEST/ \
 			http://download.enlightenment.org/snapshots/2010-11-12/ \
 			http://download.enlightenment.org/snapshots/2009-06-14/ \
@@ -21,7 +20,7 @@ MAINTAINER ?=		Jonathan Armani <armani@openbsd.org>
 
 NO_REGRESS ?=		Yes
 
-VERSION ?=		999.65384
+VERSION ?=		999.65643
 
 .ifdef DEBUG
 DEBUG +=		-O0 -g
